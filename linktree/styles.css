@@ -1,8 +1,5 @@
 body {
-    background-image: url("assets/background.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: #cccccc;
+    background-color: #2e2929;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
@@ -60,3 +57,10 @@ a:hover {
 
 
 
+@media(max-width: 991px) {
+
+
+
+
+
+}

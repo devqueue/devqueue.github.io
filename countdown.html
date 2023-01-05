@@ -1,7 +1,7 @@
 <style>
   /* general styling */
 :root {
-  --smaller: 0.75;
+  --smaller: 0.50;
 }
 
 * {
@@ -116,7 +116,6 @@ li span {
 
         //do something later when date is reached
         if (distance < 0) {
-          document.getElementById("headline").innerText = "It's my birthday!";
           document.getElementById("countdown").style.display = "none";
           document.getElementById("content").style.display = "block";
           clearInterval(x);
@@ -127,7 +126,6 @@ li span {
 
 </script>
 <div class="container">
-  <h1 id="headline" </h1>
     <div id="countdown">
       <ul>
         <li><span id="days"></span>days</li>
